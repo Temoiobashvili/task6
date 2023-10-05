@@ -19,6 +19,10 @@ header {
   align-items: center;
 }
 
+.header-a {
+  color: black;
+}
+
 button {
   background: none;
   border: none;
@@ -80,24 +84,24 @@ button {
 }
 
 .main-button-and-p {
- width: 327px;
- margin: auto;
- padding-top: 24px;
+  width: 327px;
+  margin: auto;
+  padding-top: 24px;
 }
 
 .main-button-1 {
-  background-color:black;
+  background-color: black;
   color: white;
   padding: 12px 24px 12px 24px;
   border-radius: 32px;
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
   cursor: pointer;
 }
 
 .photo-main-1-375px {
   width: 327px;
   height: 309px;
-  margin:auto;
+  margin: auto;
   margin-top: 24px;
 }
 
@@ -114,12 +118,12 @@ button {
 }
 
 .features {
-  background-color:#F3F3F3;
+  background-color: #f3f3f3;
   margin-top: 24px;
 }
 
 .feature-ones {
-  background-color:#F3F3F3;
+  background-color: #f3f3f3;
   width: 327px;
   display: flex;
   flex-direction: column;
@@ -171,7 +175,7 @@ button {
 
 .feature-two-p {
   padding-left: 30px;
-  padding-right: 30px; 
+  padding-right: 30px;
   margin-top: 10px;
   font-size: 16px;
 }
@@ -209,7 +213,7 @@ button {
 
 .img-blackside-1 {
   width: 327px;
-  height:195px;
+  height: 195px;
   margin-top: 24px;
 }
 
@@ -237,8 +241,8 @@ button {
 }
 
 .blackside-latters-p {
- width: 300px;
- margin: auto;
+  width: 300px;
+  margin: auto;
 }
 
 .blackside-p-1 {
@@ -248,9 +252,9 @@ button {
 }
 
 .blackside-p-2-lain-1 {
-color: white;
-margin-top: 20px;
-font-size: 16px;
+  color: white;
+  margin-top: 20px;
+  font-size: 16px;
 }
 
 .blackside-p-2-lain-2 {
@@ -301,13 +305,13 @@ footer {
 }
 
 .footer-latters {
-display: flex;
-justify-content: space-around;
-margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 
 .footer-latters-lain-1 {
-  width: 80px; 
+  width: 80px;
   margin-left: 30px;
 }
 
@@ -387,7 +391,7 @@ margin-top: 20px;
   }
 
   .photo-main-1-744px {
-    display:block;
+    display: block;
     width: 696px;
     height: 499px;
     margin: auto;
@@ -410,7 +414,7 @@ margin-top: 20px;
   .h-blackside-1 {
     font-size: 28px;
   }
-  
+
   .blackside-latters {
     max-width: 696px;
   }
@@ -430,11 +434,124 @@ margin-top: 20px;
   }
 
   .footer-latters {
-   justify-content:flex-start;
+    justify-content: flex-start;
   }
 
   .footer-logo {
     margin-left: 22px;
     margin-top: 25px;
+  }
+
+  .footer-latters-lain-2 {
+    margin-left: 73px;
+    padding-bottom: 73px;
+  }
+
+  .footer-latters-lain-3 {
+    margin-left: 73px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  header {
+    margin-bottom: 44px;
+  }
+
+  .header-li-2 {
+    margin: 0 44px;
+  }
+
+  .header-li-4 {
+    margin: 0 44px;
+  }
+
+  .h1-main-one {
+    font-size: 56px;
+  }
+
+  .h1-p-main {
+    max-width: 630px;
+    margin: auto;
+  }
+
+  .main-button-and-p {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    margin-bottom: 20px;
+  }
+
+  .main-button-1 {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+
+  .p-main-2 {
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .photo-main-1-744px {
+    display: none;
+  }
+
+  .photo-main-1-1024px {
+    display: block;
+    width: 960px;
+    height: 450px;
+    margin: auto;
+  }
+
+  .feature-ones {
+    background-color: #f3f3f3;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .features {
+    height: 259px;
+    display: flex;
+    align-items: center;
+  }
+
+  .box-feature-two {
+    padding: 0;
+    text-align: start;
+  }
+
+  .box-feature-three {
+    padding: 0;
+    text-align: start;
+  }
+
+  .box-feature-one {
+    padding: 0;
+    text-align: start;
+  }
+
+  .img-blackside-1-744px {
+    display: none;
+  }
+
+  .img-blackside-1-1024px {
+    display: block;
+    margin: auto;
+    padding-top: 32px;
+  }
+
+  .blackside-latters {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 64px;
+    max-width: 100%;
+  }
+
+  .h-blackside-1 {
+    text-align: start;
+    margin: 0;
+    width: 415px;
   }
 }
