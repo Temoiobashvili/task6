@@ -273,6 +273,7 @@ font-size: 16px;
 
 .last-photo-375px {
   margin-top: 24px;
+  margin-bottom: 26px;
 }
 
 .last-photo-744px {
@@ -289,16 +290,20 @@ font-size: 16px;
 
 footer {
   background-color: black;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-logo {
-  margin-top: 50px;
-  background-color: red;
+  width: 101px;
+  height: 27px;
+  margin: auto;
 }
 
 .footer-latters {
 display: flex;
 justify-content: space-around;
+margin-top: 20px;
 }
 
 .footer-latters-lain-1 {
@@ -347,7 +352,6 @@ justify-content: space-around;
 
 .footer-latters-lain-3 {
   width: 80px;
-  margin-right: 30px;
 }
 
 @media all and (min-width: 744px) {
@@ -422,9 +426,15 @@ justify-content: space-around;
   .last-photo-744px {
     display: block;
     padding-top: 24px;
+    margin: auto;
   }
 
   .footer-latters {
    justify-content:flex-start;
+  }
+
+  .footer-logo {
+    margin-left: 22px;
+    margin-top: 25px;
   }
 }
