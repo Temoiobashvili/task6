@@ -331,8 +331,9 @@ footer {
 }
 
 .footer-latters-lain-2 {
-  width: 80px;
+  width: 200px;
   padding-bottom: 122px;
+  padding-left: 60px;
 }
 
 .footer-h-2 {
@@ -356,6 +357,10 @@ footer {
 
 .footer-latters-lain-3 {
   width: 80px;
+}
+
+.last-latter-footer {
+  display: none;
 }
 
 @media all and (min-width: 744px) {
@@ -398,7 +403,7 @@ footer {
   }
 
   .feature-ones {
-    width: 100%;
+    width: 744px;
   }
 
   .img-blackside-1 {
@@ -443,12 +448,12 @@ footer {
   }
 
   .footer-latters-lain-2 {
-    margin-left: 73px;
+    padding-left: 130px;
     padding-bottom: 73px;
   }
 
   .footer-latters-lain-3 {
-    margin-left: 73px;
+    margin-left: 130px;
   }
 }
 
@@ -520,16 +525,19 @@ footer {
   .box-feature-two {
     padding: 0;
     text-align: start;
+    max-width: 280px;
   }
 
   .box-feature-three {
     padding: 0;
     text-align: start;
+    max-width: 280px;
   }
 
   .box-feature-one {
     padding: 0;
     text-align: start;
+    max-width: 280px;
   }
 
   .img-blackside-1-744px {
@@ -543,15 +551,220 @@ footer {
   }
 
   .blackside-latters {
+    max-width: 100%;
+    margin: 0;
     display: flex;
     justify-content: space-around;
-    margin-top: 64px;
-    max-width: 100%;
+    padding-top: 48px;
   }
 
-  .h-blackside-1 {
+  .div-h-blackside-1 {
+    max-width: 415px;
+    text-align: start;
+  }
+
+  .blackside-latters-p {
+    width: 420px;
+    margin: 0;
+    padding-left: 90px;
+    text-align: start;
+  }
+
+  .blackside-photo-latters {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 64px;
+  }
+
+  .last-photo-744px {
+    display: none;
+  }
+
+  .last-photo-1024px {
+    display: block;
+    margin: auto;
+  }
+
+  .footer-latters-lain-2 {
+    margin-left: 160px;
+    padding-bottom: 73px;
+  }
+
+  .footer-latters-lain-3 {
+    margin-left: 250px;
+    padding-bottom: 73px;
+  }
+
+}
+
+@media all and (min-width: 1440px) {
+  .header-li-2 {
+    margin: 0 24px;
+  }
+
+  .header-li-4 {
+    margin: 0 24px;
+  }
+
+  .main-div-white-side {
+    display: flex;
+    flex-direction:row;
+    text-align: 0;
+    justify-content: space-around;
+    margin-bottom: 64px;
+  }
+
+  .photo-main-1-1024px {
+    display: none;
+  }
+
+  .photo-main-1-1440px {
+    display: inline-block;
+  }
+
+  .h1-p-main {
+    max-width: 490px;
+    text-align: start;
+  }
+
+  .main-button-and-p {
+    display: flex;
+    align-items: center;
+    width: 330px;
     text-align: start;
     margin: 0;
-    width: 415px;
+    padding-top: 44px;    
+  }
+
+  .div-main-lain-one-laters {
+    height: 288px;
+    margin-top: 75px;
+  }
+
+  .feature-ones {
+    max-width: 100
+    5;
+  }
+
+  .box-feature-one {
+    max-width: 360px;;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-top: 48px;
+    padding-bottom: 24px;
+  }
+
+  .box-feature-two {
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-top: 48px;
+    padding-bottom: 24px;
+  }
+
+  .box-feature-three {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-top: 48px;
+    padding-bottom: 24px;
+    max-width: 360px;
+  }
+
+  .feature-one {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+  }
+
+  .feature-two {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+  }
+
+  .feature-three {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+  }
+
+  .feature-one-p {
+    margin-top: 16px;
+  }
+
+  .feature-two-p {
+    margin-top: 16px;
+  }
+
+  .feature-three-p {
+    margin-top: 16px;
+  }
+
+  .img-blackside-1-1024px {
+    display: none;
+  }
+
+  .img-blackside-1-1440px {
+    display: inline;
+    width: 503px;
+    height: 428px;
+  }
+
+  .blackside-photo-latters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 96px;
+  }
+
+  .blackside-latters {
+    display: flex;
+    flex-direction: column;
+    max-width: 503px;
+  }
+
+  .blackside-latters-p {
+    padding: 0;
+  }
+  
+  .div-h-blackside-1 {
+    max-width: 503px;
+  }
+
+  .last-photo-1024px {
+    display: none;
+  }
+
+  .last-photo-1440px {
+    display: block;
+    margin: auto;
+  }
+
+  .footer {
+    background-color: black;
+    display: flex;
+  }
+
+  .footer-latters {
+    justify-content: space-around;
+    display: flex;
+  }
+
+  .last-h {
+    color: white;
+  }
+
+  .last-p {
+    color: grey;
+    margin-top:24px;
+  }
+
+  .last-latter-footer {
+    display: inline-block;
+    margin-left: 130px;
   }
 }
