@@ -75,6 +75,9 @@ button {
   font-size: 22px;
   padding-left: 10px;
   padding-right: 10px;
+  max-width: 380px;
+  margin: auto;
+  padding-top: 24px;
 }
 
 .div-main-lain-one-laters {
@@ -564,7 +567,7 @@ footer {
   }
 
   .blackside-latters-p {
-    width: 420px;
+    max-width: 420px;
     margin: 0;
     padding-left: 90px;
     text-align: start;
@@ -744,9 +747,10 @@ footer {
     margin: auto;
   }
 
-  .footer {
+  footer {
     background-color: black;
     display: flex;
+    flex-direction: row;
   }
 
   .footer-latters {
@@ -767,4 +771,5 @@ footer {
     display: inline-block;
     margin-left: 130px;
   }
+  
 }
